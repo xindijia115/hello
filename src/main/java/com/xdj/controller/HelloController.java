@@ -15,6 +15,7 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
-        return "http://www.xdj666.top";
+        String url = "http://www.xdj666.top";
+        return url;
     }
 }
