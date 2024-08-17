@@ -15,6 +15,7 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
+        // 为什么没有触发构建
         String url = "https://www.xdj666.top";
         return url;
     }
