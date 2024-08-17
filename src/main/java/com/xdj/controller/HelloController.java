@@ -15,7 +15,7 @@ public class HelloController {
 
     @GetMapping
     public String hello() {
-        String url = "欢迎光临我的个人博客：https://www.xdj666.top";
+        String url = "https://www.xdj666.top";
         return url;
     }
 }
