@@ -17,9 +17,6 @@ public class HelloController {
     public String hello() {
         // 为什么没有触发构建
         String url = "https://www.xdj666.top";
-        int a = 1;
-        int b = 2;
-        int sum = a + b;
-        return url + sum;
+        return url;
     }
 }
